@@ -1,0 +1,22 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Notification {
+  id          String    @id
+  recipientId String //como se fosse uma chave estrangeira (user)
+  content     String
+  category    String
+  readAt      DateTime? // pode ser nullable
+  createdAt   DateTime  @default(now()) // definido valor default
+
+  @@index([recipientId]) // permite uma query mais leve ao banco de dados (indexação)
+}
