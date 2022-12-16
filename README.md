@@ -1,73 +1,40 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Ignite Lab - Notifications Microservice
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## 🎉 O Evento
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+O Ignite Lab Notifications Service é um evento de programação feito pela Rocketseat, no qual, durante 4 dias, somando-se 3 aulas, tem-se como objetivo criar uma aplicação server-side, com foco em back-end, trazendo um novo conteúdo à comunidade.
 
-## Description
+Além disso, há direcionamentos sobre as melhores práticas durante o desenvolvimento e diversas novas ferramentas úteis que auxiliam no dia a dia de trabalho.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+O evento foi realizado em 12/2022.
 
-## Installation
+## 💻 O Projeto
 
-```bash
-$ npm install
-```
+Trata-se da implementação de um microsserviço focado em Notificações, no geral. Não há um contexto específico, por se tratar de algo muito comum das aplicações. O foco do projeto é
 
-## Running the app
+- Explorar o NestJs como ferramenta core
+- Utilizar o Prisma para dar agilidade na conexão com banco de dados
+- Modelar um serviço de notificação, encarado como microsserviço de aplicações com regras de negócio mais complexas
 
-```bash
-# development
-$ npm run start
+## 💡 Tecnologias Utilizadas
 
-# watch mode
-$ npm run start:dev
+No projeto utilizou-se:
 
-# production mode
-$ npm run start:prod
-```
+- **NodeJs** -> Plataforma para rodar o ambiente Javascript
+- **Typescript** -> Linguagem de programação fortemente tipada
+- **NestJs** -> Framework para criação de aplicações server-side. Criação opinada de API's com diversas ferramentas e opções de integrações.
+- **Prisma** -> ORM para integração com banco de dados. Excelente para produtividade.
+- **Class Validator/Class Transformer** -> Bibliotecas para realizar validação das rotas do projeto, por meio de decorators em classes.
 
-## Test
+## 🔎 Referências
 
-```bash
-# unit tests
-$ npm run test
+- [Node Js](https://nodejs.org/en/docs/)
+- [Typescript](https://www.typescriptlang.org/docs/)
+- [Nest Js](https://docs.nestjs.com/)
+- [Prisma](https://www.prisma.io/docs/getting-started)
+- [Class Validator](https://github.com/typestack/class-validator)
+- [Class Transformer](https://github.com/typestack/class-transformer)
 
-# e2e tests
-$ npm run test:e2e
+## 🧠 Créditos e Agradecimentos
 
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+Gostaria de agradecer a [Rocketseat](https://www.rocketseat.com.br/) pelo conteúdo fantástico disponibilizado, sendo todos os créditos do projeto destinados a eles.
