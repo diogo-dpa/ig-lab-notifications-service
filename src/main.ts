@@ -8,3 +8,6 @@ async function bootstrap() {
   await app.listen(3000);
 }
 bootstrap();
+
+// Rodar no terminal
+// npx tsc --noEmit -> compilar o código para verificar possíveis erros

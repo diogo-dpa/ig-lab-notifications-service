@@ -16,6 +16,7 @@ model Notification {
   content     String
   category    String
   readAt      DateTime? // pode ser nullable
+  canceledAt  DateTime? // pode ser nullable
   createdAt   DateTime  @default(now()) // definido valor default
 
   @@index([recipientId]) // permite uma query mais leve ao banco de dados (indexação)
